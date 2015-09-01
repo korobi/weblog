@@ -4,7 +4,7 @@ description: > # this means to ignore newlines until "baseurl:"
     the site and the bots as well as insights of our development
     adventures
 
-url: "https://korobi.github.io/" # TODO move to blog.korobi.io
+url: "https://blog.korobi.io/"
 baseurl: "/weblog"
 permalink: "/:year/:month/:day/:title/"
 
