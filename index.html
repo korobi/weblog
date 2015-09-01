@@ -7,12 +7,12 @@ layout: default
 <ul>
     {% for post in site.posts %}
         <li>
-            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            <a href="{{ post.url | prepend: site.github.url }}">{{ post.title }}</a>
             <span class="post-meta">{{ post.date | date: "%d-%m-%y %H:%M" }}</span>
         </li>
     {% endfor %}
 </ul>
 
 <p>
-    Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>
+    Subscribe <a href="{{ "/feed.xml" | prepend: site.github.url }}">via RSS</a>
 </p>
