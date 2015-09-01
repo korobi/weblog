@@ -1,5 +1,4 @@
 ---
-layout: post
 title:  "I'm so fabulous!"
 author: bendem
 date:   2015-09-01 UTC 17:29:31
