@@ -1,0 +1,85 @@
+.theme-switcher {
+    // TODO Media query
+    position: fixed;
+    top: 4rem;
+    right: 1em;
+
+    width: 1.5rem;
+    height: 1.5rem;
+
+    border-radius: 2px;
+    border: 1px solid #666;
+
+    cursor: pointer;
+
+    &::before {
+        content: ' ';
+        position: absolute;
+        top: 3px;
+        bottom: 3px;
+        left: 3px;
+        right: 3px;
+
+        border-style: solid;
+        border-width: 0 0 1rem 1rem;
+        border-radius: 2px;
+    }
+
+    .theme-switcher--label {
+        display: none;
+        display: inline-block;
+
+        white-space: nowrap;
+        line-height: 1.5rem;
+        padding: 0.1rem 0.6rem;
+        border-radius: 5px;
+
+        position: absolute;
+        right: 2rem;
+        top: -0.1rem;
+
+        &::after {
+            content: ' ';
+            position: absolute;
+            right: -0.3rem;
+            top: 0.45rem;
+            border-style: solid;
+            border-width: 0.4rem 0 0.4rem 0.4rem;
+        }
+    }
+    &:hover .theme-switcher--label {
+        display: inline-block;
+    }
+}
+
+.theme-switcher--to-light {
+    background-color: #111;
+
+    &::before {
+        border-color: transparent transparent #bbb transparent;
+    }
+
+    .theme-switcher--label {
+        background-color: #bbb;
+        color: #111;
+        &::after {
+            border-color: transparent transparent transparent #bbb;
+        }
+    }
+}
+
+.theme-switcher--to-dark {
+    background-color: #ddd;
+
+    &::before {
+        border-color: transparent transparent #333 transparent;
+    }
+
+    .theme-switcher--label {
+        background-color: #333;
+        color: #ddd;
+        &::after {
+            border-color: transparent transparent transparent #333;
+        }
+    }
+}

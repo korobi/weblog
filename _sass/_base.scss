@@ -12,6 +12,10 @@ html {
     line-height: 1.5;
     font-size: 1.1rem;
 }
+html.light {
+    color: #111;
+    background-color: #eee;
+}
 
 body {
     min-height: 100vh;
@@ -39,5 +43,10 @@ code:not([class|=language]) {
     font-family: monospace;
     border: 1px solid rgba(0, 0, 0, 0.5);
     background-color: rgba(255, 255, 255, 0.2);
-    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3)
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
+
+    html.light & {
+        background-color: rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(0, 0, 0, 0.2);
+    }
 }
