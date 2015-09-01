@@ -1,0 +1,42 @@
+// Basic reset
+html, body, div, main, header, nav, footer, section, article, p, pre, h1, h2 {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: block;
+}
+
+html {
+    color: white;
+    background-color: #222;
+    line-height: 1.5;
+}
+
+body {
+    min-height: 100vh;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+a {
+    color: #82A7DB;
+    text-decoration: none;
+}
+
+code:not([class|=language]) {
+    display: inline-block;
+    padding: 0.05rem 0.3rem;
+    border-radius: 4px;
+    font-family: monospace;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3)
+}

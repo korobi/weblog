@@ -1,0 +1,33 @@
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 55rem;
+}
+
+.upper-layer {
+    line-height: 3rem;
+    height: 3rem;
+    width: 100%;
+    background-color: #2C3E50;
+    box-shadow: 0px 0px 5px #000;
+
+    a {
+        color: white;
+        text-decoration: none;
+    }
+}
+
+nav header {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+main {
+    flex: 1;
+    width: 100%;
+    margin-top: 1rem;
+
+    p {
+        margin: 1rem 0;
+    }
+}

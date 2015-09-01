@@ -1,0 +1,11 @@
+title: Korobi's logs
+description: > # this means to ignore newlines until "baseurl:"
+    This is the korobi's blog where you'll find updates about
+    the site and the bots as well as insights of our development
+    adventures
+
+url: "http://localhost:4000" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
