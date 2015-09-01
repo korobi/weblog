@@ -10,6 +10,7 @@ permalink: "/:year/:month/:day/:title/"
 
 gems:
     - jemoji
+    - jekyll-mentions
 
 kramdown:
     input: GFM
