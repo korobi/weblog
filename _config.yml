@@ -4,7 +4,8 @@ description: > # this means to ignore newlines until "baseurl:"
     the site and the bots as well as insights of our development
     adventures
 
-url: "http://localhost:4000" # the base hostname & protocol for your site
+url: "https://korobi.github.io/" # TODO move to blog.korobi.io
+baseurl: "/weblog"
 
 # Build settings
 markdown: kramdown
