@@ -8,8 +8,11 @@ url: "https://blog.korobi.io/"
 baseurl: ""
 permalink: "/:year/:month/:day/:title/"
 
-# Build settings
-markdown: kramdown
+gems:
+    - jemoji
+
+kramdown:
+    input: GFM
 
 defaults:
     -
