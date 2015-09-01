@@ -1,3 +1,3 @@
 # Blog
 
-Jekyll, GitHub Pages, https://korobi.github.io/ (soon https://blog.korobi.io)
+Jekyll, GitHub Pages, http://korobi.github.io/weblog/ (soon https://blog.korobi.io)
