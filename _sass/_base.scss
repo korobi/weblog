@@ -2,8 +2,10 @@
 html, body, div, main, header, nav, footer, section, article, p, pre, h1, h2 {
     padding: 0;
     margin: 0;
-    box-sizing: border-box;
     display: block;
+}
+* {
+    box-sizing: border-box;
 }
 
 html {
