@@ -15,8 +15,13 @@ gems:
     - jemoji
     - jekyll-mentions
 
-kramdown:
-    input: GFM
+markdown: redcarpet
+redcarpet:
+  extensions:
+    - no_intra_emphasis
+    - autolink
+    - strikethrough
+    - fenced_code_blocks
 
 defaults:
     -
