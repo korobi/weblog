@@ -8,6 +8,9 @@ url: "https://blog.korobi.io"
 baseurl: ""
 permalink: "/:year/:month/:day/:title/"
 
+exclude:
+    - README.md
+
 gems:
     - jemoji
     - jekyll-mentions
