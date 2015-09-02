@@ -5,7 +5,7 @@ layout: null
     {% for post in site.posts limit:10 %}
     {
         "title": {{ post.title | jsonify }},
-        "description": {{ post.content | jsonify }},
+        "content": {{ post.content | jsonify }},
         "date": {{ post.date | date_to_rfc822 | jsonify }},
         "link": {{ post.url | prepend: site.baseurl | prepend: site.url | jsonify }},
         "categories": [
