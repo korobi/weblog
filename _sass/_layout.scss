@@ -35,8 +35,16 @@ nav {
         font-size: 1rem;
         transition: all 0.3s ease 0s;
 
-        &:hover {
+        &:hover, &:focus {
             background-color: #1A252F;
+        }
+        &--external::after {
+            display: inline-block;
+            width: 0.8rem;
+            height: 0.8rem;
+            content: ' ';
+            background-image: url($baseurl + '/images/arrow.svg');
+            background-size: 0.8rem 0.8rem;
         }
     }
 }
