@@ -10,7 +10,7 @@ stuff I wrote, everything!
 And just because I'm so cool :bowtie:, I wrote two themes for it. That way, you
 can all enjoy both a dark theme and a light theme.
 
-The blog uses [Jekyll][jekyll] with a custom theme and is hosted using [Github
+The blog uses [Jekyll][jekyll] with a custom theme and is hosted using [GitHub
 Pages][gh-pages] going through [CloudFlare][cloudflare]. The comment section is
 powered by [Disqus][disqus] and we'll try to hang out in there to answer your
 possible questions (though you probably have better chances to get a quick answer
