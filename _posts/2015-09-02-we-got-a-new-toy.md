@@ -1,9 +1,9 @@
 ---
 title:  "We got a new toy"
 author: bendem
-date:   2015-09-02 21:23:44 UTC+2
+date:   2015-09-02 21:23:44 +0200
 ---
-Yes, you are seeing correctly: Korobi now has a blog where you will find news
+Yes, your eyes are not deceiving you! Korobi now has a blog where you will find news
 about our updates, development insights, silly anecdotes about the horrible
 stuff I wrote, everything!
 

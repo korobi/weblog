@@ -7,6 +7,7 @@ description: >
 url: "https://blog.korobi.io"
 baseurl: ""
 permalink: "/:year/:month/:day/:title/"
+timezone: UTC
 
 exclude:
     - README.md
