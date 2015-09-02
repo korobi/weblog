@@ -4,7 +4,7 @@ description: >
     the site and the bots as well as insights of our development
     adventures
 
-url: "https://blog.korobi.io/"
+url: "https://blog.korobi.io"
 baseurl: ""
 permalink: "/:year/:month/:day/:title/"
 
