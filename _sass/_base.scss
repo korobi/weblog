@@ -37,6 +37,10 @@ body {
 a {
     color: #82A7DB;
     text-decoration: none;
+
+    html.light & {
+        color: #3264ac;
+    }
 }
 
 code:not([class|=language]) {
