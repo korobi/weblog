@@ -36,6 +36,11 @@
             $switcher.classList.add('theme-switcher--to-light');
             $switcher.querySelector('.theme-switcher--js-type').textContent = 'light';
         }
+
+        if(typeof DISQUS !== 'undefined') {
+            DISQUS.next.host.loader.loadEmbed()
+        }
+
         return theme;
     }
 
