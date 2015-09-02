@@ -22,6 +22,7 @@
         if(theme === 'light') {
             switchTheme(theme);
         }
+        $switcher.classList.add('enabled');
     }
 
     function switchTheme(theme) {

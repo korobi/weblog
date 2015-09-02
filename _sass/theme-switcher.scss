@@ -1,5 +1,6 @@
 .theme-switcher {
-    // TODO Media query
+    // TODO Media query?
+    display: none;
     position: fixed;
     top: 4rem;
     right: 1em;
@@ -11,6 +12,10 @@
     border: 1px solid #666;
 
     cursor: pointer;
+
+    &.enabled {
+        display: block;
+    }
 
     &::before {
         content: ' ';
