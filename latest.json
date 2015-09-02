@@ -7,7 +7,7 @@ layout: null
         "title": {{ post.title | jsonify }},
         "content": {{ post.content | jsonify }},
         "date": {{ post.date | date_to_rfc822 | jsonify }},
-        "link": {{ post.url | prepend: site.baseurl | prepend: site.url | jsonify }},
+        "url": {{ post.url | prepend: site.baseurl | prepend: site.url | jsonify }},
         "categories": [
             {% for category in post.categories %}
                 {{ category | jsonify }}{% unless forloop.last %},{% endunless %}
