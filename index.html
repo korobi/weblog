@@ -7,7 +7,7 @@
     {% for post in site.posts %}
         <li>
             <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            <span class="post-meta">{{ post.date | date: "%d-%m-%y %H:%M" }}</span>
+            • <span class="post-meta">{{ post.date | date: "%d-%m-%y %H:%M" }}</span>
         </li>
     {% endfor %}
 </ul>
