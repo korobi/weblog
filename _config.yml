@@ -25,6 +25,9 @@ redcarpet:
         - strikethrough
         - fenced_code_blocks
 
+sass:
+    style: compressed
+
 defaults:
     -
         scope:
