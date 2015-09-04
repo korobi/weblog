@@ -7,7 +7,7 @@ Greetings fellow Korobi enthuisiasts!
 
 Today, the third of september, 2015, we've open-sourced a few of our core projects on GitHub.
 
-The repositories that were opensources are as follows:
+The repositories that have been made opensource are as follows:
 
 + [Web](https://github.com/korobi/Web)
 + [ElasticMangos](https://github.com/korobi/ElasticMangos)
