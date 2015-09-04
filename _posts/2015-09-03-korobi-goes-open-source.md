@@ -17,7 +17,7 @@ Previously, we'd kept these private for a couple of reasons - most notably to tr
 
 The projects we've made available include the site, which is a Symfony application (PHP), along with the source for the blog you're reading right now and a tool to import our data from MongoDB to ElasticSearch. We hope that the code will be useful to others and we're very happy to accept any pull requests, feature suggestions, bug reports, etc. via GitHub.
 
-We hope to make further use of this blog in order to explain some of the design decisions we've made in the 7 months since we began working on the project. I like to think we've come pretty far - it seems like only yesterday when Korobi (which at that time was named qtpi) was a mess of everything possible, with all of pulling our hair out hoping things would not crash and burn. ^_^
+We hope to make further use of this blog in order to explain some of the design decisions we've made in the 7 months since we began working on the project. I like to think we've come pretty far - it seems like only yesterday when Korobi (which at that time was named qtpi) was a mess of everything possible, with all of us pulling our hair out hoping things would not crash and burn. ^_^
 
 If you have any questions about the project, please feel free to leave a comment or say hi in our IRC channel over on EsperNet ([#korobi](irc://irc.esper.net/korobi)). You can connect via [webchat](https://webchat.esper.net/?channels=korobi) if you don't have your own client installed.
 
