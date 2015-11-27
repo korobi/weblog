@@ -16,7 +16,8 @@
         $switcher = document.querySelector('#theme-switcher');
 
         $switcher.addEventListener('click', function(e) {
-            localStorage['theme'] = theme = switchTheme(invert(theme));
+            localStorage['theme'] = theme = invert(theme);
+            switchTheme(theme);
         });
 
         if(theme === 'light') {
@@ -39,10 +40,8 @@
         }
 
         if(typeof DISQUS !== 'undefined') {
-            DISQUS.next.host.loader.loadEmbed()
+            DISQUS.reset({ reload: true });
         }
-
-        return theme;
     }
 
     function invert(theme) {
